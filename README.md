@@ -26,3 +26,9 @@ setx OPENAI_API_KEY "your-api-key"
 ```bash
 streamlit run app.py
 ```
+# 5 Running pytests
+From the main directory of the project
+```bash
+export PYTHONPATH=.
+pytest tests/test.py -v
+```
